@@ -18,7 +18,7 @@ This repository accumulates **all coding assignments** for the course CART211
 
 ### Prototypes:
 
-       [Introduction to HTML](https://artcbranco.github.io/cart211/html-intro)
+[Introduction to HTML](https://artcbranco.github.io/cart211/html-intro)
 
 
 ---
