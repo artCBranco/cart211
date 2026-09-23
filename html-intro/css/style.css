@@ -93,7 +93,15 @@ nav {
     color: rgb(255, 136, 0);
 
     background-color: rgb(223, 223, 223);
+}
 
+nav a {
+    padding: 1%;
+    background-color: gray;
+}
+
+nav a.active {
+    background-color: white;
 }
 
 header {
@@ -102,6 +110,22 @@ header {
     margin-right: auto;
 
     text-align: center;
+}
+
+main {
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+footer {
+
+    width: 65%;
+
+    padding: 4%;
+    text-align: right;
 }
 
 h1 {}
