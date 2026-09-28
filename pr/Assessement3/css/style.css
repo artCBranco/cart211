@@ -1,0 +1,23 @@
+/*************************** 
+
+CSS document for this project
+
+
+
+**************************/
+
+body {
+    /*styling the colors of the website*/
+    background-color: antiquewhite;
+    color: black;
+
+    /*styling the font*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-display: fallback;
+}
+
+img {
+    width: 65%;
+}
