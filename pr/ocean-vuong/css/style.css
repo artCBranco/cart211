@@ -45,6 +45,7 @@ nav {
 /*Image width*/
 img {
     width: 95%;
+    border-radius: 1rem;
 }
 
 /* settings to create the grid*/
