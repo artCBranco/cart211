@@ -1,16 +1,16 @@
-# Introduction to HTML
+# Ocean Vuong
 
 by Felipe Amorim Castelo Branco
 
-[View this project online](https://artcbranco.github.io/cart211/pr/html-intro)
+[View this project online](https://artcbranco.github.io/cart211/pr/ocean-vuong)
 
-[View the Github repository](https://github.com/artCBranco/cart211)
+[View the Github repository](https://github.com/artCBranco/cart211/pr/ocean-vuong)
 
 [View the Github Pages for the class Repository](https://artcbranco.github.io/cart211)
 
 ## Description
 
-This is a brief introduction to HTML code.
+This is a brief introduction to CSS. 
 
 ## Attribution
 

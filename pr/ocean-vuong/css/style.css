@@ -19,7 +19,7 @@ body {
     margin: 10%;
 }
 
-
+/* Hyperlinks*/
 a {
     text-decoration: none;
     color: white;
@@ -29,6 +29,7 @@ a {
 
 }
 
+/* Navigation Menu settings, includes hyperlinks*/
 nav {
     margin-top: 20%;
     float: left;
@@ -41,15 +42,18 @@ nav {
     width: 60%;
 }
 
+/*Image width*/
 img {
     width: 95%;
 }
 
+/* settings to create the grid*/
 .bookgrid {
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
+/*Bibliography settings*/
 .ref {
     font-size: .8em;
     line-height: .6em;
@@ -61,6 +65,7 @@ footer {
     line-height: 1em;
 }
 
+/* margin to all sections*/
 section {
     margin-top: 10%;
     margin-bottom: 10%
