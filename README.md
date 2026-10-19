@@ -18,8 +18,9 @@ This repository accumulates **all coding assignments** for the course CART211
 
 ### Prototypes:
 
-[Introduction to HTML](https://artcbranco.github.io/cart211/html-intro)
-[Ocean Vuong](https://artcbranco.github.io/cart211/ocean-vuong)
+- [Introduction to HTML](https://artcbranco.github.io/cart211/pr/html-intro)
+
+- [Ocean Vuong](https://artcbranco.github.io/cart211/pr/ocean-vuong)
 
 
 ---
