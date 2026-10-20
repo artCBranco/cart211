@@ -10,7 +10,7 @@ by Felipe Amorim Castelo Branco
 
 ## Description
 
-This is a brief introduction to CSS. 
+This is a brief introduction to CSS and corresponds to Assignment 3 and 4 of the class.
 
 ## Attribution
 
