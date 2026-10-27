@@ -20,12 +20,12 @@ Header {
 }
 
 /* logo*/
-.logo {
-    width: 100%;
-}
+.logo {}
 
 /* Menu bar */
-nav {}
+nav {
+    justify-content: center;
+}
 
 /* hyperlinks in general*/
 a {}
