@@ -32,5 +32,24 @@ class="fa fa-facebook" class="fa fa-youtube" class="fa fa-instagram" class="fa f
 <meta name="robots" content="noindex">
 
 
+                 <figure>
+                    <img src="assets/story1.jpg" class="im" height="" 800 alt="Story1">
+                    <figcaption>Story 1</figcaption>
+                </figure>
+               
+                <figure>
+                    <img src="assets/The_Empire.jpg" class="im" height=""800 alt="The Empire">
+                    <figcaption>The Empire</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/they_loved_me.jpg" class="im" height=""800 alt="They Loved Me">
+                    <figcaption>They Loved Me</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/tough_morning.jpg" class="im" height=""800 alt="Tough Morning">
+                    <figcaption>Tought Morning</figcaption>
+                </figure>
+
+
 
 
