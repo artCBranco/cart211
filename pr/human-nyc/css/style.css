@@ -1,0 +1,59 @@
+/* CSS style sheet */
+/* The entire Webpage*/
+body {
+    font-family: "Yanone Kaffeesatz", helvetica, sans serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+/* All the sections/content*/
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* The header (h1, nav)*/
+Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo*/
+.logo {
+    width: 100%;
+}
+
+/* Menu bar */
+nav {}
+
+/* hyperlinks in general*/
+a {}
+
+/* Everything from the landing page all the way to before the footer. */
+
+main {}
+
+/* General Image settings*/
+img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+/* Image grid*/
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* entire footer*/
+footer {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 1rem;
+}
+
+/* Links for socials. Empty at the moment */
+.icon-wrapper {}
