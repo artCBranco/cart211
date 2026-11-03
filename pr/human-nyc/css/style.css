@@ -91,13 +91,39 @@ img {
     grid-row-end: 3;
 }
 
+.im5 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
 
+.im6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
 
+.im7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
 
+.im11 {
+    grid-column-start: 3;
+    grid-column-end: 5;
 
+}
 
-
-
+.im12 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
 
 /* entire footer*/
 footer {
