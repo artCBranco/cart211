@@ -7,11 +7,7 @@ body {
     font-size: 26px;
 }
 
-/* All the sections/content*/
-#wrapper {
-    width: 100%;
-    margin: 0 auto;
-}
+
 
 /* The header (h1, nav)*/
 Header {
@@ -19,20 +15,30 @@ Header {
     justify-content: space-between;
 }
 
-/* logo*/
-.logo {}
+/* logo
+.logo {}*/
 
 /* Menu bar */
 nav {
-    justify-content: center;
+    padding-right: 10%;
+
 }
 
-/* hyperlinks in general*/
+/* hyperlinks in general
 a {}
+*/
 
 /* Everything from the landing page all the way to before the footer. */
 
-main {}
+main {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    margin: 5% auto;
+    font-size: 6rem;
+}
 
 /* General Image settings*/
 img {
@@ -41,19 +47,69 @@ img {
     object-fit: cover;
 }
 
+p {
+    font-weight: 350;
+    margin-top: 1rem;
+}
+
 /* Image grid*/
 .image-container {
+    margin: 10% auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 30rem;
+}
+
+/* All the sections/content*/
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+
 }
 
 /* entire footer*/
 footer {
-    margin-top: 50px;
-    font-size: 20px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 1rem;
     line-height: 1rem;
+    width: 90%;
+    text-align: center;
 }
 
 /* Links for socials. Empty at the moment */
-.icon-wrapper {}
+.icon-wrapper {
+    font-size: 3rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.75rem;
+
+}
+
+
+
+@media (max-width:1500px) {
+
+    /* Image grid*/
+    .image-container {
+        margin: 10% auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width:767px) {
+
+    /* Image grid*/
+    .image-container {
+        margin: 10% auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
