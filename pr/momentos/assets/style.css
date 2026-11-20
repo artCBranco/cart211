@@ -6,6 +6,7 @@ html {
     font-optical-sizing: auto;
     font-weight: 300;
     font-size: 1.5rem;
+    text-align: left;
 }
 
 /* Colors of the entire Webpage*/
@@ -15,42 +16,21 @@ body {
 }
 
 
-/* Each the sections/content*/
-#wrapper {
-    width: 92%;
-    margin: 0 auto;
-}
-
-/* Beige background */
-#wrap-strong {
-    width: 92%;
-    margin: 0 auto;
-
-    background-color: antiquewhite;
-}
 
 /* The header (h1, nav)*/
 Header {
     width: 100%;
     position: fixed;
-}
-
-/* logo*/
-.navlogo {
-    font-size: rem;
+    top: 0;
 }
 
 /* Menu bar */
 nav {
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 7rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: antiquewhite;
-}
-
-.logo {
-    justify-content: center;
 }
 
 /* hyperlinks in general*/
@@ -59,6 +39,43 @@ a {
     color: black;
     font-size: 1.25rem;
 }
+
+a:hover {
+    color: indianred;
+}
+
+/* menu hyperlinks*/
+.menu {
+    margin-left: 4rem;
+}
+
+
+
+/* The entire webpage*/
+#wrapper {
+    margin: -40px auto;
+    /* TODO remove the minus here and fix the issue. */
+}
+
+/* Beige background UNUSED*/
+
+#dark {
+    background-color: blanchedalmond;
+}
+
+/* Separate Sections */
+.section {
+    width: 92%;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+/* FEED > Landing */
+#landing {
+    float: left;
+    width: 50%
+}
+
 
 
 /* Everything about the Text */
@@ -69,44 +86,106 @@ main {
 }
 
 h1 {
-    font-family: Philosopher;
-    font-style: italic;
+    font-family: "Philosopher";
     font-weight: 900;
-    line-height: 0.1rem;
-    letter-spacing: 0.01rem;
+    line-height: 0rem;
+    letter-spacing: 0rem;
 }
 
 h2 {
-    margin: 2% auto;
+    font-family: "Philosopher";
+    font-weight: 900;
     font-size: 6rem;
+    line-height: 0;
 }
 
 h3 {
-    margin: 2% auto;
-    font-size: 6rem;
+    font-size: 2.5rem;
+    font-weight: 100;
 }
 
 strong {
     margin: 2% auto;
-    font-size: 6rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    line-height: 4rem;
+
+
 }
 
 p {
     font-weight: 350;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
 small {
     margin: 2% auto;
-    font-size: 6rem;
+    font-size: 0.8rem;
 }
 
+
+
+/* FOOTER */
+footer {
+    background-color: blanchedalmond;
+    padding: 2rem 5rem;
+}
+
+/* The entire footer*/
+#foot-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Group */
+#foot-left {
+    display: flex;
+
+    width: 30%
+}
+
+/* Right Group */
+#foot-right {
+    width: 30%;
+}
+
+/* Site Map Links*/
+.foot-a {
+    margin: 1.3rem;
+}
+
+/* Center Group*/
+#foot-logo {
+    text-align: center;
+    margin: 2rem;
+}
+
+/* Clickable Footer Logo*/
+#footer-logo {
+    font-family: "Philosopher";
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+/* Links for socials*/
+.icon-wrapper {
+    font-size: 2.5rem;
+    margin: auto 2rem;
+    margin-top: 1.75rem;
+    letter-spacing: 1rem;
+}
 
 
 
 
 /* Images */
+
+/* Feed frame */
+iframe {
+    width: 100%;
+    height: auto;
+}
 
 /* Image grid*/
 .image-container {
@@ -119,11 +198,11 @@ small {
 
 /* General Image settings*/
 img {
-    width: 100%;
-    height: 90%;
+    width: 50%;
+    height: 100%;
     object-fit: cover;
     border-radius: 2.5%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .im1 {
@@ -133,28 +212,7 @@ img {
     grid-row-end: 3;
 }
 
-/* entire footer*/
-footer {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    font-size: 1rem;
-    line-height: 1rem;
-    width: 90%;
-    text-align: center;
-}
 
-/* Links for socials. Empty at the moment */
-.icon-wrapper {
-    font-size: 3rem;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-bottom: 2.5rem;
-    letter-spacing: 0.75rem;
-
-}
 
 
 
